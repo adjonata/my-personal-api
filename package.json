@@ -1,0 +1,14 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My Portfólio Monorepo",
+  "main": "index.js",
+  "repository": "https://github.com/adjonata/adjonata/",
+  "author": "Alex Djonata <alex.code.js@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ]
+}
