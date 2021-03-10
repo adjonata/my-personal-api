@@ -4,7 +4,7 @@ import { Request, Response } from "express";
 export default {
   async getter(request: Request, response: Response) {
     return await About.findOne()
-      .sort("-id")
+      .sort({ '_id': -1 })
       .then(res => {
         if (!res) {
           return response.status(400).json({
